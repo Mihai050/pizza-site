@@ -1,4 +1,5 @@
 Install the backend dependencies to run the project.
+Run the server.js from backend and acces the links in the terminal.
 
 This site is a vanilla javascript project meant to experiment with the backend and API routes and also display visually pleasing front-end. In this project there are two front-end pages, one seen by the user, in which the user can order some pizzas, and one seen by the restaurant, in which they can see the orders on some virtual sticky-notes. It uses Express JS for the backend.
 
