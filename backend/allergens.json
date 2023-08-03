@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "name": "gluten"
+  },
+  {
+    "id": 1,
+    "name": "wheat"
+  },
+  {
+    "id": 2,
+    "name": "milk"
+  },
+  {
+    "id": 3,
+    "name": "cheese"
+  },
+  {
+    "id": 4,
+    "name": "tomatoes"
+  },
+  {
+    "id": 5,
+    "name": "pepperoni"
+  },
+  {
+    "id": 6,
+    "name": "sausage"
+  },
+  {
+    "id": 7,
+    "name": "bacon"
+  },
+  {
+    "id": 8,
+    "name": "anchovies"
+  },
+  {
+    "id": 9,
+    "name": "soy"
+  },
+  {
+    "id": 10,
+    "name": "onions"
+  },
+  {
+    "id": 11,
+    "name": "garlic"
+  },
+  {
+    "id": 12,
+    "name": "bell peppers"
+  },
+  {
+    "id": 13,
+    "name": "mushrooms"
+  },
+  {
+    "id": 14,
+    "name": "olives"
+  },
+  {
+    "id": 15,
+    "name": "anchovy"
+  },
+  {
+    "id": 16,
+    "name": "pineapple"
+  },
+  {
+    "id": 17,
+    "name": "ham"
+  },
+  {
+    "id": 18,
+    "name": "peanut"
+  },
+  {
+    "id": 19,
+    "name": "tree nuts"
+  },
+  {
+    "id": 20,
+    "name": "shellfish"
+  },
+  {
+    "id": 21,
+    "name": "fish"
+  },
+  {
+    "id": 22,
+    "name": "mustard"
+  },
+  {
+    "id": 23,
+    "name": "sesame"
+  },
+  {
+    "id": 24,
+    "name": "egg"
+  }
+]

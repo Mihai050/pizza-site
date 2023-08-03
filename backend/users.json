@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "email": "spyry4ever@gmail.com",
+      "address": "Strada Semilunei 4-6",
+      "phone": "0772123123",
+      "name": "Stroe Mihai",
+      "password": "123parola"
+    },
+    {
+      "email": "codanMartin25@gmail.com",
+      "address": "Strada Semilunei 6-5",
+      "phone": "0723000999",
+      "name": "Dan Martin",
+      "password": "123parola"
+    }
+  ],
+  "adminsPass": "123parola"
+}

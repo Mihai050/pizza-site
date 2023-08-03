@@ -1,0 +1,245 @@
+[
+  {
+    "id": 0,
+    "name": "Pizza Caprese",
+    "ingredients": [
+      "tomato sauce",
+      "basil",
+      "garlic",
+      "oregano",
+      "olive oil",
+      "mozzarella "
+    ],
+    "price": 59,
+    "allergens": [1, 3, 9],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMTQ5M180OTBfMzM1XzJfMl84MF9f/1001493_1.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Pizza Margherita",
+    "ingredients": [
+      "tomato sauce",
+      "mozzarella cheese",
+      "basil leaves",
+      "olive oil"
+    ],
+    "price": 50,
+    "allergens": [1, 3],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDA0NF80OTBfMzM1XzJfMl84MF9f/1000044_1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pizza Pepperoni",
+    "ingredients": [
+      "tomato sauce",
+      "mozzarella cheese",
+      "pepperoni",
+      "olive oil"
+    ],
+    "price": 64,
+    "allergens": [1, 3, 6],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDA0M180OTBfMzM1XzJfMl84MF9f/1000043_1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pizza Supreme",
+    "ingredients": [
+      "tomato sauce",
+      "mozzarella cheese",
+      "sausage",
+      "pepperoni",
+      "bell peppers",
+      "onions",
+      "olive oil"
+    ],
+    "price": 56,
+    "allergens": [1, 3, 6, 7, 11],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDA1MV80OTBfMzM1XzJfMl84MF9f/1000051_1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Pizza Veggie",
+    "ingredients": [
+      "tomato sauce",
+      "mozzarella cheese",
+      "mushrooms",
+      "bell peppers",
+      "onions",
+      "olives",
+      "olive oil"
+    ],
+    "price": 48,
+    "allergens": [1, 3, 11, 13, 14, 15],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDIxNl80OTBfMzM1XzJfMl84MF9f/1000216_1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pizza Hawaiian",
+    "ingredients": [
+      "tomato sauce",
+      "mozzarella cheese",
+      "ham",
+      "pineapple",
+      "olive oil"
+    ],
+    "price": 58,
+    "allergens": [1, 3, 17, 18],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDIxNV80OTBfMzM1XzJfMl84MF9f/1000215_1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Pasta Bolognese",
+    "ingredients": ["ragu sauce", "beef meet", "mozzarella"],
+    "price": 63,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDAzNV80OTBfMzM1XzJfMl84MF9f/1000035_1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Pasta Carbonara",
+    "ingredients": [
+      "white sauce",
+      "sour cream",
+      "mozzarella",
+      "bacon",
+      "garlic"
+    ],
+    "price": 53,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDAzNl80OTBfMzM1XzJfMl84MF9f/1000036_1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Pasta Tomato Vegie",
+    "ingredients": ["tomato sauce", "mushrooms", "mozzarella", "tomatoes"],
+    "price": 53,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDAzOV80OTBfMzM1XzJfMl84MF9f/1000039_1.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Tuna Salad",
+    "ingredients": [
+      "mix of endive",
+      "frisée",
+      "red beet",
+      "tuna",
+      "green olives",
+      "corn",
+      "pepper",
+      "onions"
+    ],
+    "price": 29,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDIwN180OTBfMzM1XzJfMl84MF9f/1000207_1.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Greek Salad",
+    "ingredients": [
+      "mix of endive",
+      "frisée",
+      "beetroot",
+      "feta cheese",
+      "green olives",
+      "tomatoes",
+      "cucumbers",
+      "onions",
+      "peppers",
+      "oregano"
+    ],
+    "price": 29,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDA1OV80OTBfMzM1XzJfMl84MF9f/1000059_1.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Caesar Salad",
+    "ingredients": [
+      "mix of endive",
+      "frisée",
+      "beetroot",
+      "bacon",
+      "chicken breast",
+      "tomatoes",
+      "croutons",
+      "Parmesan",
+      "oregano"
+    ],
+    "price": 29,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDA2MF80OTBfMzM1XzJfMl84MF9f/1000060_1.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Sweet Ketcup",
+    "ingredients": ["tomatoes", "pepper"],
+    "price": 5,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMTQzMV80OTBfMzM1XzJfMl84MF9f/1001431_1.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Hot Ketcup",
+    "ingredients": ["tomatoes", "pepper", "hot cili paper"],
+    "price": 5,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDEwNF80OTBfMzM1XzJfMl84MF9f/1000104_1.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Garlic Sauce",
+    "ingredients": ["garlic", "pepper", "salt"],
+    "price": 5,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDEyMV80OTBfMzM1XzJfMl84MF9f/1000121_1.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Carlsberg beer",
+    "ingredients": ["beer"],
+    "price": 9,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDAxNV80OTBfMzM1XzJfMl84MF9f/1000015_1.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Water",
+    "ingredients": ["nothing special"],
+    "price": 9,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDc2Nl80OTBfMzM1XzJfMl84MF9f/1000766_1.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Coca Cola",
+    "ingredients": ["darknes"],
+    "price": 9,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDc1NV80OTBfMzM1XzJfMl84MF9f/1000755_1.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Waffle",
+    "ingredients": ["sweetness"],
+    "price": 17,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMTQ5Nl80OTBfMzM1XzJfMl84MF9f/1001496_1.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Chocolate Tortilla",
+    "ingredients": ["chocolate"],
+    "price": 23,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDAyM180OTBfMzM1XzJfMl84MF9f/1000023_1.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Cheesecake",
+    "ingredients": ["will be a surprise"],
+    "price": 23,
+    "allergens": [],
+    "url": "https://www.pizzahutdelivery.ro/egendaOnline/image/MTAwMDM3M180OTBfMzM1XzJfMl84MF9f/1000373_1.jpg"
+  }
+]

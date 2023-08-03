@@ -1,0 +1,664 @@
+/*! MAIN PAGE */
+/*! MAIN PAGE */
+/*! MAIN PAGE */
+/*! MAIN PAGE */
+/*! MAIN PAGE */
+/*! MAIN PAGE */
+/*! MAIN PAGE */
+/*! MAIN PAGE */
+/*! MAIN PAGE */
+/*! MAIN PAGE */
+/*! MAIN PAGE */
+
+body,
+#root {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  font-family: "Open Sans";
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+#cart-svg {
+  margin-left: 0.5em;
+}
+
+#order-basket {
+  width: 55%;
+  height: 700px;
+  display: grid;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+.basket-qty{
+  position: relative;
+  display: flex;  
+  left: 145px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
+  border-radius: 25px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+
+}
+
+.btn-contain{
+  margin-right: 50px;
+}
+
+.pageTitle{
+  display: grid;
+  font-size: 5em;
+  color:#f2f2f2;
+  place-content: center;
+  justify-content: center;
+  margin: auto;
+
+}
+
+@media (max-width: 1200px){
+  .pageTitle{
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 950px) {
+  .pageTitle {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 700px) {
+  .pageTitle {
+    font-size: 1.5em;
+    padding-block: .2em;
+    padding-inline: .5em;
+  }
+}
+
+.order-content {
+  height: 100%;
+  overflow-y: auto;
+  background-image: url("https://img.freepik.com/free-photo/white-textured-concrete_125540-1826.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  color: #000000;
+}
+.total-price{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-block: 2em;
+
+}
+.send-order {
+  color: rgb(0, 0, 0);
+  padding-inline: 2em;
+  padding-block: 0.5em;
+  margin-block: 2em;
+  margin-inline: 43%;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #000000;
+}
+.send-order:hover {
+  transition: ease-in;
+  border-color: #ff6f00;
+  background-color: #ff6f00;
+  color: black;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .send-order {
+    color: rgb(0, 0, 0);
+    padding-inline: 2em;
+    padding-block: 0.5em;
+    margin-block: 2em;
+    margin-inline: 35%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #000000;
+  }
+}
+
+.order-box {
+  position: relative;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  width: 80%;
+  height: 250px;
+  margin-block: 10%;
+  margin-inline: 10%;
+  border: none;
+  border-radius: 25px;
+  border: 2px solid #000000;
+}
+@media (max-width: 800px) {
+  .order-box {
+    grid-template-columns: 100%;
+    height: fit-content;
+  }
+}
+
+.order-item {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-block: 2em;
+  color: #040404;
+}
+
+.pizza-image-basket-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizza-image-basket {
+  /* width: 100%;
+  height: 100%; */
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.pizza-type-basket {
+  font-size: 150%;
+  margin: 0;
+  padding: 0;
+}
+
+.cart-control {
+  width: 200px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.qtyId {
+  font-size: 120%;
+  display: grid;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  #order-basket {
+    margin-top: 3.5%;
+    margin-bottom: 0;
+    width: 85%;
+    height: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  #order-basket {
+    margin-top: 10%;
+    margin-bottom: 0;
+    width: 85%;
+    height: 90%;
+  }
+}
+
+#header {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  justify-content: right;
+}
+
+#basket-button {
+  font-size: 120%;
+  position: relative;
+  border: 2px solid #0b0b0b;
+  display: flex;
+  margin-top: 2em;
+  margin-right: 2em;
+  padding-block: 16px;
+  padding-inline: 32px;
+  background-color: #ffffffc4;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 1200px) {
+  #header {
+    justify-content: center;
+  }
+  #basket-button {
+    margin: 0;
+    margin-top: 2em;
+  }
+}
+
+#basket-button:hover {
+  background-color: #ff9900;
+}
+
+#basket-button::after {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#pizza-list-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: auto;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("https://pizzahutdelivery.ro/img/background-oferte.jpg");
+}
+
+.individual-pizza-box {
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 2em;
+  width: 325px;
+  height: 600px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 2px double #ff6f00;
+  font-size: 120%;
+}
+.individual-pizza-box:hover {
+  scale: 1.01;
+}
+
+@media (max-width: 1200px) {
+  #pizza-list-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: auto;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .individual-pizza-box {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 2em;
+    width: 325px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 800px) {
+  #pizza-list-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    grid-template-columns: 400px;
+    grid-template-rows: auto;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .individual-pizza-box {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 325px;
+    height: 600px;
+  }
+}
+
+.pizza-image {
+  position: relative;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
+  height: 58%;
+  -webkit-user-drag: none;
+}
+
+.pizza-name {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-block: 0.5em;
+}
+
+.pizza-ingredients {
+  margin-inline: 1em;
+  margin-bottom: 0.5em;
+}
+
+.control-qty {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 40%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-inline: 0.5em;
+  margin-left: 2em;
+}
+.item {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.cart {
+  display: grid;
+}
+
+.minus-cart:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.plus-cart:hover {
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.svg:hover {
+  scale: 1.2;
+  cursor: pointer;
+  fill: #ff6f00;
+}
+
+.data-col {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  place-content: center;
+  place-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 12px;
+  border: none;
+  border-bottom: 4px solid #ccc;
+  font-size: 16px;
+  width: 200px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #ff6f00;
+  outline: none;
+}
+
+/*! ADMIN PAGE */
+/*! ADMIN PAGE */
+/*! ADMIN PAGE */
+/*! ADMIN PAGE */
+/*! ADMIN PAGE */
+/*! ADMIN PAGE */
+/*! ADMIN PAGE */
+/*! ADMIN PAGE */
+/*! ADMIN PAGE */
+/*! ADMIN PAGE */
+
+#adminTitle {
+  margin: 15px;
+  font-size: x-large;
+}
+
+#admin-order-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: auto;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("https://pizzahutdelivery.ro/img/background-oferte.jpg%22");
+}
+
+.admin-pizza-order {
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 2em;
+  width: 300px;
+  height: 450px;
+  background-image: url("https://i.imgur.com/qWjYZO1.png");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 13px;
+  font-size: 120%;
+  position: relative;
+}
+
+@media (max-width: 10000px) {
+  #admin-order-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: auto;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .admin-pizza-order {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 2em;
+    width: 300px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #admin-order-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: auto;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .admin-pizza-order {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 2em;
+    width: 300px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 800px) {
+  #admin-order-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    grid-template-columns: 400px;
+    grid-template-rows: auto;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .admin-order-box {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 300px;
+    height: 450px;
+  }
+}
+
+.individual-id {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  margin-top: 1.5em;
+  font-size: 26px;
+  color: #333;
+  font-family: Monospace;
+}
+
+.actual-commands {
+  position: relative;
+  float: left;
+  margin-left: 15px;
+  top: 9%;
+  font-family: Monospace;
+  font-size: larger;
+}
+
+.actual-date {
+  position: relative;
+  float: left;
+  margin-left: 15px;
+  top: 13%;
+  font-family: Monospace;
+  font-size: larger;
+}
+
+.actual-clock {
+  position: relative;
+  float: left;
+  margin-left: 15px;
+  top: 10%;
+  font-family: Monospace;
+  font-size: larger;
+}
+
+.patron {
+  position: relative;
+  float: left;
+  margin-left: 15px;
+  top: 5%;
+  font-family: Monospace;
+  font-size: larger;
+}
+
+.contact-data {
+  position: relative;
+  float: left;
+  margin-left: 15px;
+  top: 13%;
+  font-family: Monospace;
+  font-size: larger;
+}
+
+.complete-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  background-color: #1c8f11;
+  padding-block: .5em;
+  padding-inline: 2em;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 1em;
+  font-size: 120%;
+
+}
+.complete-button:hover{
+  cursor: pointer;
+}
+
+.overflow-control {
+  position: inherit;
+  display: grid;
+  width: 100%;
+  height: 225px;
+  overflow-y: scroll;
+  font-size: 105%;
+  /* margin-inline: 1em;
+  margin-block: 1.5em; */
+  margin: auto;
+}
